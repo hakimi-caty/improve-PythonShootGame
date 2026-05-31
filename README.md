@@ -3,36 +3,37 @@
 原项目README：
 # PythonShootGame
 
-A simple shoot game written in Python.一个用Python编写的简单射击游戏。
+A simple shoot game written in Python.
 
-# Introduction   #介绍   介绍
+# Introduction
 
-This project only include two simple .py files: 这个项目只包含两个简单的.py文件：
+This project only include two simple .py files: 
 
-1. mainGame.py: The initialization and main loop of the game.1. py：游戏的初始化和主循环。
-2. gameRole.py: Class of the game role.2. gameRole.py：游戏角色类。
+1. mainGame.py: The initialization and main loop of the game.
+2. gameRole.py: Class of the game role.
 
-# Requirement   #要求   要求
+# Requirement
 
-1. Python 2.7及以上
+1. Python 2.7
 2. Python-Pygame
   
-# How To Start Game   #如何开始游戏   如何开始游戏
+# How To Start Game
   
-```bash   ”“bash
+```bash
 $ python mainGame.py
 ```
 
-# License   #许可证   许可证
+# License
 GPL
 
-# 提示
+# Screeshot
 
 ![](http://s2.postimg.org/728c1wy4p/Screenshot_5.png)
 
-修改后增加发射全屏炸弹功能 按下Space即可
-
 ![](http://s30.postimg.org/fflxcv9ld/Screenshot_6.png)
 
-# Doc   #医生
+# Doc
 [使用Pygame制作微信打飞机游戏PC版](https://www.cnblogs.com/dukeleo/p/3339780.html) (a Chinese startup)
+
+#提示
+新增全屏炸弹，接到蓝色子弹后按下Space键即可清除全屏普通敌机，并对boss造成高额伤害
